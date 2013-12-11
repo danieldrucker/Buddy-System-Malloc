@@ -3,6 +3,9 @@ Buddy-System-Malloc
 
 In this project, I created a library that implements the necessary calls to support heap memory allocation and deallocation for applications. I implemented my own versions of the standard malloc and free calls (as well as one other function), and use the “buddy algorithm” for managing the heap.
 
+Buddy System: The buddy memory allocation technique is a memory allocation algorithm that divides memory into partitions to try to satisfy a memory request as suitably as possible. This system makes use of splitting memory into halves to try to give a best-fit.
+
+
 void *malloc(size_t)
 ---------------------
 
